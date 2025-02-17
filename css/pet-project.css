@@ -142,7 +142,7 @@ body {
 
 /* мобильная адаптация кнопки меню */
 
-@media (max-width: 409px) {
+@media (max-width: 879px) {
     .menu__list {
         position: absolute;
         display: flex;
