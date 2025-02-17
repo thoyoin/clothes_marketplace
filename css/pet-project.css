@@ -137,6 +137,7 @@ body {
     color: white;
     text-transform: uppercase;
     margin-right: 40px;
+    mix-blend-mode: difference;
 }
 
 /* мобильная адаптация кнопки меню */
@@ -161,6 +162,7 @@ body {
         color: white;
         text-transform: uppercase;
         padding: 20px;
+        text-shadow: 1px 1px 5px black;
     }
 }
 
