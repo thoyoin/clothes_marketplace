@@ -139,6 +139,32 @@ body {
     margin-right: 40px;
 }
 
+/* мобильная адаптация кнопки меню */
+
+@media (max-width: 409px) {
+    .menu__list {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: -100%;
+        align-items:flex-start;
+        padding: 20px;
+        margin: 40px 0 0 0;
+        transition: .3s;
+    }
+    #menu__toggle:checked ~ .menu__list {
+        top: 0;
+        transition: .3s;
+    }
+    .menu__item {
+        font-size: 17px;
+        color: white;
+        text-transform: uppercase;
+        padding: 20px;
+    }
+}
+
+
 .menu__item:hover {
     transition: .1s;
     color: rgba(255, 255, 255, 0.484);
