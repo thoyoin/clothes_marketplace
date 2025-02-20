@@ -223,6 +223,7 @@ body {
 .life2archive {
     font-weight: lighter;
     color: #a4a4a481;
+    font-size: 35px;
 }
 
 .content {
@@ -472,11 +473,11 @@ body {
 .footer {
     display: grid;
     background-color: black;
-    color: white;
+    color: rgba(255, 255, 255, 0.571);
     align-items: center;
     justify-items: center;
     height: 30px;
     width: 100%;
-
     position: sticky;
+    cursor:help;
 }
