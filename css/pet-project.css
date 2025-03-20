@@ -481,24 +481,36 @@ body {
 
 .footphoto {
     display: block;
-    width: 100%;
-    height: 70%;
+    width: 50%;
     overflow: hidden;
+    max-height: 700px;
+}
+
+.photoContainer {
+    display: flex;
+    flex-direction: row;
 }
 
 .footContainer {
     position: relative;
     display: inline-block;
-}
+    bottom: -33px;
+} 
 
-.footContainer::before {
+/* .footContainer::before {
     content: '';
     position: absolute;
-    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(0, 0, 0, 0.394));
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(0, 0, 0, 0));
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+} */
+
+@media (max-width: 409px) {
+    .footContainer {
+        display: none;
+    }
 }
 
 .footer {
