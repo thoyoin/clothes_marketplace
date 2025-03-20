@@ -479,6 +479,27 @@ body {
     cursor: default;
 }
 
+.footphoto {
+    display: block;
+    width: 100%;
+    height: 70%;
+}
+
+.footContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.footContainer::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(0, 0, 0, 0.394));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .footer {
     display: grid;
     background-color: black;

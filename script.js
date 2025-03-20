@@ -60,6 +60,26 @@ const products = [{
     name: 'Exstra Wide Baggy Jeans',
     price: 'BYN 190',
     href: '#'
+},{
+    image: 'catalog/Vanucci_Italian.png',
+    name: 'Vanucci Italian',
+    price: 'BYN 320',
+    href: '#'
+},{
+    image: 'catalog/Gosha.png',
+    name: 'Гоша Рубчинский',
+    price: 'BYN 100',
+    href: '#'
+},{
+    image: 'catalog/Slim_Fit_Long_Sleeve.png',
+    name: 'Slim Fit Long Sleeve',
+    price: 'BYN 120',
+    href: '#'
+},{
+    image: 'catalog/Avangard_Leather_Jacket.png',
+    name: 'Avangard Leather Jacket',
+    price: 'BYN 180',
+    href: '#'
 }]
 
 let productsHTML = '';
