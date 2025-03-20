@@ -273,9 +273,11 @@ body {
 }
 
 .container {
+    display: flex;
     flex-grow: 1;
     min-height: 100%;
-    margin: 0 auto;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
 }
 
 .container-1product {
@@ -482,20 +484,19 @@ body {
 .footphoto {
     width: 100%;
     overflow: hidden;
-    max-height: 700px;
+    max-height: 600px;
 }
 
 .photoContainer {
     display: grid;
     grid-template-columns: auto auto;
-
 }
 
-
 .footContainer {
-    position: relative;
+    position: sticky;
     display: inline-block;
     bottom: -33px;
+    z-index: -1;
 } 
 
 /* .footContainer::before {
@@ -508,11 +509,11 @@ body {
     height: 100%;
 } */
 
-@media (max-width: 409px) {
+/* @media (max-width: 409px) {
     .footContainer {
         display: none;
     }
-}
+} */
 
 .label p {
     position: absolute;
