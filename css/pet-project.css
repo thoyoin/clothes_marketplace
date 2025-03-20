@@ -480,16 +480,17 @@ body {
 }
 
 .footphoto {
-    display: block;
-    width: 50%;
+    width: 100%;
     overflow: hidden;
     max-height: 700px;
 }
 
 .photoContainer {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto;
+
 }
+
 
 .footContainer {
     position: relative;
@@ -511,6 +512,22 @@ body {
     .footContainer {
         display: none;
     }
+}
+
+.label p {
+    position: absolute;
+    top: 9px;
+    font-size: 16px;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.label {
+    display: flex;
+    grid-column: 1 / span 2;
+    color: rgba(255, 255, 255, 0.571);
 }
 
 .footer {
