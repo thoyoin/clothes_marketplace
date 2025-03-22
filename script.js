@@ -87,8 +87,8 @@ let productsHTML = '';
 products.forEach((product) => {
     productsHTML += `
     <div class="product">
-        <a href="#"><img src="${product.image}" alt="${product.name}"></a>
-        <a href="#" class="name">${product.name}</a>
+        <a href="${product.href}"><img src="${product.image}" alt="${product.name}"></a>
+        <a href="${product.href}" class="name">${product.name}</a>
         <div clss="price">${product.price}</div>
     </div>  
     `

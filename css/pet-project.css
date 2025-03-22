@@ -493,7 +493,7 @@ body {
 .footphoto {
     width: 100%;
     overflow: hidden;
-    max-height: 600px;
+    max-height: 500px;
 }
 
 .photoContainer {
